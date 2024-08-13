@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root{
+    --primary: #C62828;
+    --secondary: #E7DA26;
+    --black: #000;
+    --white: #FFF;
+}
+
+
+
+header{
+    color: var(--secondary);
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-image: url("../banner1.png");
+    font-size: larger;
+    font-weight: 200;
+    text-shadow: 3px 1px black;
+    
+}
+
+.atalhos{
+    height: 2rem;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-evenly;
+}
+.atalhos a{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    color: white;
+    background-color: var(--primary);
+    font-size: small;
+    height: 2rem;
+}
+
+footer h1{
+    display: flex;
+    justify-content: end;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 120px - 4rem);
+}
+
+.contato-main {
+    align-items: center;
+}
+
+.principal h1 {
+    font-weight: 800;
+    padding: 1rem 1rem;
+}
+
+.principal h2 {
+    font-size: larger;
+    font-weight: 100;
+    padding: 0.5rem 1rem;
+}
+
+.principal ol, ul {
+    font-size: larger;
+    font-weight: 100;
+    padding: 0.5rem 2rem;
+}
+
+fieldset{
+    margin: 2rem;
+    padding: 0.5rem;
+    border: 2px solid var(--secondary);
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+select{
+    border-bottom: 1px solid var(--black);
+    background-color: white;
+}
+
+input {
+    border-bottom: 1px solid var(--black);
+    padding-bottom: 2px;
+}
+
+textarea {
+    border-bottom: 1px solid var(--black);
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+div {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.botoes button {
+    
+    margin: 2px;
+    background-color: var(--secondary);
+    color: var(--black);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifgi;
+    border-radius: 12px;
+    transform: translateY(2px);
+    border: var(--black);
+    border-style:solid;
+    padding: 2px;
+    font-size: 20px;
+    height: 2rem;
+    width: 4.5rem;
+}
+
+
+.topo {
+    display: block;
+}
+
+.topo div, p, a{
+    padding: 0 1rem;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.topo div p{
+    font-weight: 800;
+}
+
+.topo div li{
+    margin: 1rem;
+}
+
+.topo p{
+    padding: 1rem;
+}
+
+.topo div a{
+    font-weight: normal;
+    text-decoration: none;margin-bottom: 0.1rem;
+    color: black;
+}
+
+.curso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.curso h1 {
+    margin-top: 1rem;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.curso tr td {
+    padding: 1rem;
+}
+
+table, td, tr, th {
+    width: max-content;
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 0 1.1rem;
+}
+
+table th{
+    font-size: large;
+}
+td {
+    text-align: center;
+}
+
+.materia {
+    text-align: left;
+}
+
+/*oii*/
